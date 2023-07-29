@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mind & Body</title>
+  </head>
+  <body>
+    <section class="front-page">
+      <img class="hero" src="./assets/hero.png" alt="bg-img" />
+      <nav>
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="logo" />
+          <h1>Mind & Body</h1>
+        </div>
+        <div class="links">
+          <a href="#">Our Story</a>
+          <a href="#">Practice</a>
+          <a href="#">Classes</a>
+        </div>
+        <!-- if you use img tag and add the svg you will not be able to animate it so copy the svg from the assets file and paste it below -->
+        <!-- by using the svg itself instead of using img tag you can animate all the properties. -->
+        <svg
+          width="44"
+          height="18"
+          viewBox="0 0 44 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            class="line"
+            y1="1"
+            x2="44"
+            y2="1"
+            stroke="white"
+            stroke-width="2"
+          />
+          <line
+            class="line"
+            y1="9"
+            x2="27"
+            y2="9"
+            stroke="white"
+            stroke-width="2"
+          />
+          <line
+            class="line"
+            y1="17"
+            x2="11"
+            y2="17"
+            stroke="white"
+            stroke-width="2"
+          />
+        </svg>
+      </nav>
+      <div class="selling-point">
+        <h2>Let your mind breathe.</h2>
+        <h3>
+          Get unlimited access to yoga, pilates, and meditation Classes that fit
+          the way you feel.
+        </h3>
+        <div class="ctas">
+          <!-- cta stands for call to actions -->
+          <button class="cta-sec">Explore Classes</button>
+          <button class="cta-main">
+            <a href="https://koalendar.com/e/meet-with-rex-mccartney"
+              >Sign Up Today</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="classes">
+      <div class="classes-description">
+        <h2>Classes tailored for you.</h2>
+        <h3>It's time to heal your mind and body</h3>
+      </div>
+      <div class="videos">
+        <div class="pilates">
+          <h3>Pilates</h3>
+          <video muted loop class="video" src="./assets/pilates.mp4"></video>
+        </div>
+        <div class="yoga">
+          <h3>Yoga</h3>
+          <video muted loop class="video" src="./assets/yoga.mp4"></video>
+        </div>
+        <div class="meditation">
+          <h3>Meditation</h3>
+          <video muted loop class="video" src="./assets/meditation.mp4"></video>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="our-story">
+        <h2>Our Story...</h2>
+        <p>
+          Hi, I'm Jake, a certified yoga instructor and wellness coach. I'm
+          passionate about helping people find balance, peace and joy in their
+          lives through the practice of yoga. Whether you're a beginner or an
+          advanced yogi, I can guide you through a variety of styles and levels
+          to suit your needs and goals. I believe that yoga is more than just a
+          physical exercise, it's a way of living that promotes harmony between
+          body, mind and spirit. Join me for a class and discover the benefits
+          of yoga for yourself! 🧘‍♀️
+        </p>
+      </div>
+      <img src="./assets/our-story.png" alt="our-story" />
+    </section>
+    <footer>©️LeishingamLS</footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
